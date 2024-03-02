@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bixo lindo</title>
+    <link rel="icon" type="image/x-icon" href="hehe.ico" style="border-radius: 30px;">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var image = document.querySelector('.radius');
+            var container = document.getElementById('containerdomal');
+    
+            image.addEventListener('click', function () {
+                // Calcula a largura máxima que a imagem pode esticar
+                var maxWidth = container.offsetWidth - image.offsetWidth;
+    
+                // Adiciona a classe 'stretch' à imagem
+                image.classList.add('stretch');
+    
+                // Remove a classe 'stretch' após um atraso (ajuste conforme necessário)
+                setTimeout(function () {
+                    image.classList.remove('stretch');
+                }, 5000); // 1000 milissegundos (1 segundo)
+            });
+        });
+    </script>
+    
+    
+</head>
+<body>
+    <img  class="banner1" src="banner.jpg" width="1500px">
+    <section id="containerdomal">
+        <h1 class="ui" >siddy da era do geloKKKKKKKKKKKKK</h1>
+        <h2 style="margin-top:-20px; margin-bottom:20px;" class="ui" >Onde achar informações sobre essa preguica</h2>
+        <img class="radius" src="images.jpg" alt="o tal do mochila de criança" width="270px" height="270px">
+
+        <ul class="uii">
+            <a class="pe" href="https://herois.fandom.com/pt-br/wiki/Sid_(A_Era_do_Gelo)" target="_blank" rel="external"><li> <img src="download.png" alt="" class="hell">dasdasdas </li></a>
+        </ul>
+        <blockquote>
+            <fieldset style="color:rgb(23, 23, 23) ; border:rgb(23, 23, 23);"></fieldset>
+        </blockquote>
+    </section>
+    
+</body>
+</html>
